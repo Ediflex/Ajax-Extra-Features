@@ -33,7 +33,7 @@
         },
         "CHANNELS": {
             "description": "Username or ID of channel or group. Separate multiple IDs by space.",
-            "required": false
+            "required": true
         },
         "ADMINS": {
             "description": "Username or ID of Admin. Separate multiple Admins by space.",
@@ -41,10 +41,10 @@
         },
         "PICS": {
             "description": "Add some telegraph link of pictures .",
-            "required": false
+            "required": false 
         },
         "LOG_CHANNEL": {
-            "description": "Bot Logs,Give a channel id with -100xxxxxxx",
+            "description": "Bot Logs,Give a channel id with -1001467587248",
             "required": true       
         },
         "INDEX_REQ_CHANNEL": {
@@ -87,16 +87,16 @@
         },
         "SUPPORT_CHAT": {
             "description": "Updated Channel Username Without @ Not Chanel ID",
-            "value": "OpusTechz",
+            "value": "",
             "required": false
         },
         "IMDB": {
             "description": "Imdb, the view of information when making True/False",
-            "required": false     
+            "required": true    
         },
         "IMDB_TEMPLATE": {
             "description": "Custom IMDB Template",        
-            "required": false  
+            "required": true 
         },
         "SINGLE_BUTTON": {
             "description": "choose b/w single or double buttons https://github.com/Aadhi000/Ajax/issues/22",
